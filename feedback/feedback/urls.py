@@ -19,6 +19,7 @@ from django.urls import path
 
 from home.views import *
 
+
 urlpatterns = [
     path('', surveys,name='surveys'),
     path('survey_view/<id>/', survey_view,name='survey_view'),
