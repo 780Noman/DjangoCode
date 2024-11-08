@@ -20,8 +20,6 @@ from  interface.views import *
 
 
 urlpatterns = [
-
-
     path('admin/', admin.site.urls),
     path('if/',index,name='index'),
 ]
