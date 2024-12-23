@@ -32,6 +32,7 @@ def run():
     for e in range(N_EPISODES):
         
         game.reset() #reset env 
+        
 
         done = False
         score = 0
